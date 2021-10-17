@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Web App – Simple Interest Calculator</title>       <!--add a descriptive title-->
+        <script src="script.js"></script>               <!--Link the javascript document-->
+        <link rel="stylesheet" href="style.css">        <!--Link the css file-->
+    </head>
+    <body><br>
+        <center>
+        <div class="maindiv" align="left">              
+            <center><h1>Simple Interest Calculator</h1></center> <br>           <!--Add a heading-->
+               Amount <input type="number" id="principal">  <br><br>         <!--Input the principal-->
+               Rate <input type="range" id="rate" min="1" max="20" onchange="updateRate()">   <!--Choose the rate-->
+            <span id="rate_val">6</span>
+            <br><br>
+               Number of Years <select id="years">     <!--Dropdown for number of years-->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br><br>
+               <button onclick="compute()">Compute Interest</button><br><br>       <!--Button to compute interest-->
+            <span id="result">   If you deposit <mark>23</mark><br>   at an interest rate of <mark>6%.</mark><br>   You will receive an amount of <mark>6.9<br></mark>   in the year <mark>2026</mark></span><br><br>                             <!--Display the interest-->
+             <footer>
+        © This Calculator belongs to Arish Baig              <!--Copyright-->
+        </footer>
+        </div><br><br><br><br><br></center>
+    
+
+</body></html>

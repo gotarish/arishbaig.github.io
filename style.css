@@ -1,0 +1,20 @@
+body								/*style for the body tag*/
+{
+    background-color:black;			
+    font-family:arial;				
+    color:white
+}
+h1									/*style for the h1 tag*/
+{
+    color:grey;
+    font-family:verdana
+}
+.maindiv							/*style for class named maindiv*/
+{
+    background-color: white;
+    color: black;
+    width: 600px;
+    padding: 50px;
+    border-radius: 20px;
+    align:center;
+}
